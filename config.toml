@@ -1,4 +1,4 @@
-title = "Notre-Dame de Paris"
+title = "Урдук Иирэ"
 baseURL = "https://example.com"
 languageCode = "en-us"
 theme = "ananke"
@@ -21,8 +21,8 @@ enableRobotsTXT = true
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
-  instagram = ""
+  twitter = ""
+  instagram = "https://www.instagram.com/ostrog_nam/"
   youtube = ""
   github = ""
   gitlab = ""
@@ -33,5 +33,5 @@ enableRobotsTXT = true
   rss = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  featured_image = "IMG_9672.JPG"
   recent_posts_number = 2
