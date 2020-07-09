@@ -17,6 +17,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  body_classes = "calisto"
   favicon = ""
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
