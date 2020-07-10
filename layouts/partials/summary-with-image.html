@@ -3,7 +3,7 @@
   <div class="db pv4 ph3 ph0-l no-underline dark-gray">
     <div>
       <div class="blah w-100{{ if $featured_image }} w-100-ns pl3-ns{{ end }}">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
+        <h1 class="f3 fw1 athelas mt0 lh-title tc">
           <a href="{{.Permalink}}" class="color-inherit dim link">
             {{ .Title }}
             </a>
@@ -19,7 +19,7 @@
         {{ $featured_image := (trim $featured_image "/") | absURL }}
         <div class="pr3-ns mb4 mb0-ns w-100">
           <a href="{{.Permalink}}" class="db grow">
-            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
+            <img src="{{ $featured_image }}" class="img tc" alt="image from {{ .Title }}">
           </a>
         </div>
       {{ end }}
